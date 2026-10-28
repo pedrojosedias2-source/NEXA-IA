@@ -1,0 +1,8 @@
+{
+  "name": "Nexo AI",
+  "description": "Plataforma de inteligência artificial de alta performance com orquestração multi-agente, streaming neural em tempo real e interface glassmórfica ultra-intuitiva.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

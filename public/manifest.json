@@ -1,0 +1,50 @@
+{
+  "id": "/",
+  "name": "Nexo AI — Superapp Multifuncional",
+  "short_name": "Nexo AI",
+  "description": "Superapp multifuncional com inteligência artificial, rede social, vídeos curtos e diário pessoal inteligente.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#081425",
+  "background_color": "#081425",
+  "categories": ["productivity", "social", "utilities", "entertainment"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Assistente IA",
+      "short_name": "Chat IA",
+      "description": "Abrir o assistente neural",
+      "url": "/?tab=ai",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Diário Pessoal",
+      "short_name": "Diário",
+      "description": "Anotações e hábitos",
+      "url": "/?tab=journal",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Vídeos",
+      "short_name": "Vídeos",
+      "description": "Vídeos curtos recomendados",
+      "url": "/?tab=videos",
+      "icons": [{ "src": "/icon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
